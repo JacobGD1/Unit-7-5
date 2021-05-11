@@ -8,7 +8,7 @@ function buttonOne () {
 
   age = document.getElementById('age').value
   age = parseInt(age)
-// set age and day as values but set age as a parseInt
+  // set age and day as values but set age as a parseInt
   if ((day === 'Monday' || day === 'Tuesday' || day === 'Wednesday' || day === 'Thursday' || day === 'Friday') && (age < 18)) {
     document.getElementById('text').innerHTML = 'Time for school'
   } else if ((day !== 'Saturday' && day !== 'Sunday') && (age >= 18)) {
